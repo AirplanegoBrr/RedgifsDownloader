@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
-//https://api.redgifs.com/v2/gifs/decisivebestbettong
+//https://api.redgifs.com/v2/gifs/<gifID>
 
 async function download(url, dest) {
     //wait for stream to finish then return destReal
